@@ -25,12 +25,7 @@ April 20, 2017
 * Another good bonus: I can practice with Markdown. I'm really really like it.
 
 ### Content
-
-Not yet.
+[The Challenges](https://github.com/hungtn/Codes/blob/master/%23100DaysOfCode/challenges.md)
 
 </br>
-
 *lotus 20-04-2017*
-```
-<script src="https://gist.github.com/andyferra/2554919.js"></script>
-```
