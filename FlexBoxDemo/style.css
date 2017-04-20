@@ -1,0 +1,50 @@
+.box {
+  margin-top: 5px;
+}
+.box1 { border: 0.5px solid gray; }
+.box2 { background: white; border: 0.5px dotted gray;}
+.box3 { background: white; border: 2px inset gray; }
+.box4 { background: white; border: 2px inset gray; }
+.box5 { border: 0.5px dotted gray; }
+
+.status {
+  width: 101.17px;
+}
+.img{ background: red;}
+.info{ background: blue; }
+.time{ background: orange; }
+.account{ background: green; }
+
+
+/* flexbox */
+.container{
+  display: flex;
+  width:720px;
+  height: 872px;
+  flex-direction: column;
+  background-color: #E6E6E6;
+  padding: 20px;
+  margin: 0 auto;
+}
+.box1{
+  flex: 1;
+  display: flex;
+}
+.box2{
+  flex: 3
+}
+.box3{
+  flex: 3
+}
+.box4{
+  flex: 0.7
+}
+.box5{
+  flex: 0.7
+}
+.info{
+  flex-grow: 1;
+}
+.time{
+  flex-grow: 1;
+}
