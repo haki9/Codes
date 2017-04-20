@@ -1,3 +1,3 @@
 # Codes
 
-Logs of practice coding
+It's amazing and also terrible
