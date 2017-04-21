@@ -1,3 +1,3 @@
 # Codes
 
-It's amazing and also terrible
+Do what U need to do!
