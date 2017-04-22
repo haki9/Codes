@@ -12,5 +12,7 @@ Nothing's happen. It's a blue day!
 - Webpack
 - ReactJs
 - Nodejs
+
 **Thought**: 
 - Basic Terminal is very easy and useful
+- I know more about something called Bash-it
