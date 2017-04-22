@@ -8,7 +8,7 @@ Nothing's happen. It's a blue day!
 
 **Todays's Progress:** 
 - Basic Terminal
-- Put website open on github
+- Github + Put website open on github
 - Webpack
 - ReactJs
 - Nodejs
