@@ -12,7 +12,14 @@ Nothing's happen. It's a blue day!
 - Webpack
 - ReactJs
 - Nodejs
+- Typescript
 
 **Thought**: 
 - Basic Terminal is very easy and useful
 - I know more about something called Bash-it
+
+### Day 3: Wednesday, April 26, 2017
+**Today's Progress:**
+- Angular Basic
+**Thought**:
+- It's so cool and a realty challenge.
