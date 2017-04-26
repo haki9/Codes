@@ -23,4 +23,4 @@ Nothing's happen. It's a blue day!
 - Angular Basic
 
 **Thought**:
-- It's so cool and a realty challenge.
+- It's so cool and a difficulty challenge.
