@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+      .my-input {
+          -webkit-transition:all linear 0.5s;
+          transition:all linear 0.5s;
+          background: transparent;
+      }
+      .my-input.ng-invalid {
+          color:white;
+          background: red;
+      }
+  </style>
+</head>
+<body>
+
+  <!-- Validate -->
+  <div ng-app='MyForm'>
+    <form name="testForm" ng-controller="ExampleController">
+      <input ng-model="val" ng-pattern="/^\d+$/" name="anim" class="my-input" />
+    </form>
+  </div>
+  <!-- SCRIPT -->
+  <script src="app/angular.min.js"></script>
+  <script src='app/valid.js'></script>
+</body>
+</html>

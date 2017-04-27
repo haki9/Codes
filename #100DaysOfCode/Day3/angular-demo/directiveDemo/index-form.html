@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Document</title>
+  <style>
+    *{margin:0;}
+    body{padding: 20px}
+    .my-input {
+        -webkit-transition:all linear 0.5s;
+        transition:all linear 0.5s;
+        background: transparent;
+    }
+    .my-input.ng-invalid {
+        color:white;
+        background: red;
+    }
+</style>
+</head>
+<body ng-app='app'>
+  <form name="calForm" ng-controller='formController'>
+    <table>
+      <tr>
+        <h1>{{message.title}}</h1>
+      </tr>
+      <tr>
+        <h4>{{message.lbTitle1}}</h4>
+      </tr>
+      <tr>
+        <input type="text" class='my-input' ng-model='num1' ng-required='true' ng-pattern="/^[0-9]+$/" ng-keyup='show_result()' />
+      </tr>
+      <tr>
+        <h4>{{message.lbTitle2}}</h4>
+      </tr>
+      <tr>
+        <input type="text" class='my-input' ng-model='num2' ng-required='true' ng-pattern="/^[0-9]+$/" ng-keyup='show_result()'/>
+      </tr>
+    </table>
+    <div style='{{styleresult}}'>
+      {{message.phepCong}}{{result.phepCong}} <br/>
+      {{message.phepTru}}{{result.phepTru}} <br/>
+      {{message.phepNhan}}{{result.phepNhan}} <br/>
+      {{message.phepChia}}{{result.phepChia}} <br/>
+    </div>
+  </form>
+
+  <script src="app/angular.min.js"></script>
+  <script src='app/form.js'></script>
+</body>
+</html>

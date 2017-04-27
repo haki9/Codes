@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div ng-app='app' ng-controller='myController'>
+    <!-- ng-init -->
+    <div ng-init="name='hakisaman'">{{name}}</div>
+
+    <!-- Customer Directive -->
+    <div my-directive></div>
+  </div>
+  <!-- SCRIPT -->
+  <script src="app/angular.min.js"></script>
+  <script src='app/index.js'></script>
+</body>
+</html>
